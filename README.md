@@ -63,4 +63,6 @@ This repo is ready to host on GitHub and deploy the frontend on Vercel.
 
 A GitHub Actions workflow is included at `.github/workflows/vercel-deploy.yml` for Vercel production deploys.
 
+For an online backend, deploy the API separately using a container host such as Render or Railway. This repository includes `render.yaml` for Render and `backend/README.md` with deployment instructions.
+
 > Note: The backend is still designed to run separately. For production, host the backend API on a stable host and set `NEXT_PUBLIC_API_URL` accordingly.

@@ -34,6 +34,8 @@ This project is ready for GitHub hosting and Vercel frontend deployment.
 
 The frontend is built from `frontend/`, while the API backend is expected to be hosted separately.
 
+This repository includes `render.yaml` for Render and `backend/README.md` with backend deployment instructions.
+
 ## API Documentation
 - `POST /auth/register` - create a new user
 - `POST /auth/login` - login and receive JWT
